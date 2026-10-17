@@ -1,0 +1,22 @@
+============================================================
+          AVALIAÇÃO REAL NO CONJUNTO DE TESTE               
+============================================================
+Acurácia Global (Padrão):     0.8881
+Acurácia Balanceada (Real):   0.7583
+
+--- Relatório Detalhado por Classe ---
+                 precision    recall  f1-score   support
+
+        healthy     0.9346    0.9795    0.9565       146
+red_spider_mite     0.9231    0.3871    0.5455        31
+           rust     0.8250    0.9083    0.8646       109
+
+       accuracy                         0.8881       286
+      macro avg     0.8942    0.7583    0.7889       286
+   weighted avg     0.8916    0.8881    0.8769       286
+
+--- AUC-ROC vs. Average Precision (PR-AUC) por Classe ---
+ - healthy    | ROC-AUC: 0.9646 | PR-AUC (AP): 0.9480
+ - red_spider_mite | ROC-AUC: 0.9266 | PR-AUC (AP): 0.7069
+ - rust       | ROC-AUC: 0.9269 | PR-AUC (AP): 0.9038
+============================================================
