@@ -1,0 +1,22 @@
+============================================================
+          AVALIAÇÃO REAL NO CONJUNTO DE TESTE               
+============================================================
+Acurácia Global (Padrão):     0.8706
+Acurácia Balanceada (Real):   0.7122
+
+--- Relatório Detalhado por Classe ---
+              precision    recall  f1-score   support
+
+     healthy     0.9226    0.9795    0.9502       146
+       miner     0.8889    0.2581    0.4000        31
+        rust     0.8033    0.8991    0.8485       109
+
+    accuracy                         0.8706       286
+   macro avg     0.8716    0.7122    0.7329       286
+weighted avg     0.8735    0.8706    0.8518       286
+
+--- AUC-ROC vs. Average Precision (PR-AUC) por Classe ---
+ - healthy    | ROC-AUC: 0.9579 | PR-AUC (AP): 0.9407
+ - miner      | ROC-AUC: 0.9219 | PR-AUC (AP): 0.6587
+ - rust       | ROC-AUC: 0.9199 | PR-AUC (AP): 0.9020
+============================================================
