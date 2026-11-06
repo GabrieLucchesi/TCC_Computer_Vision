@@ -1,0 +1,24 @@
+============================================================
+          AVALIAÇÃO REAL NO CONJUNTO DE TESTE (ViT)         
+============================================================
+Acurácia Global (Padrão):     0.9091
+Acurácia Balanceada (Real):   0.8867
+Especificidade Média (Macro): 0.9539
+Precisão / Recall / F1 (Macro): 0.8589 / 0.8867 / 0.8704
+
+--- Relatório Detalhado por Classe ---
+                 precision    recall  f1-score   support
+
+        healthy     0.9524    0.9589    0.9556       146
+red_spider_mite     0.7027    0.8387    0.7647        31
+           rust     0.9216    0.8624    0.8910       109
+
+       accuracy                         0.9091       286
+      macro avg     0.8589    0.8867    0.8704       286
+   weighted avg     0.9136    0.9091    0.9103       286
+
+--- Especificidade, ROC-AUC e PR-AUC por Classe ---
+ - healthy         | Spec: 0.9500 | ROC-AUC: 0.9839 | PR-AUC (AP): 0.9853
+ - red_spider_mite | Spec: 0.9569 | ROC-AUC: 0.9585 | PR-AUC (AP): 0.8362
+ - rust            | Spec: 0.9548 | ROC-AUC: 0.9700 | PR-AUC (AP): 0.9523
+============================================================
